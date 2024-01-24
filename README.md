@@ -1,1 +1,1 @@
-# amazon-redesign file
+# amazon-redesign
