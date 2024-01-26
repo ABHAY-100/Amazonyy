@@ -13,13 +13,13 @@
       <!-- first row -->
       <div class="flex flex-row items-center justify-center gap-[90px]">
         <!-- logo -->
-        <div class="flex px-0 py-[6.667px] flex-col items-start gap-[13.333px]">
+        <a href="https://amazonredesign.vercel.app/" class="flex px-0 py-[6.667px] flex-col items-start gap-[13.333px]">
           <img src="/assets/amazon-logo-1.svg" class="w-[167.868px] h-[50.667px]" alt="amazon logo">
-        </div>
+        </a>
         <!-- other components -->
         <div class="flex justify-center items-center gap-[25px]">
           <!-- loc thing -->
-          <div class="h-[58.66667px] w-[212.33334px] px-[21.333px] py-[18.667px] flex justify-center items-center gap-[13.333px] rounded-[16px] bg-amazon-not-white">
+          <div class="h-[58.66667px] w-[212.33334px] px-[21.333px] py-[18.667px] flex justify-center items-center gap-[13.333px] rounded-[16px] bg-amazon-not-white cursor-pointer">
             <img src="/assets/map-location.svg" class="w-[14.667px] h-[21.333px]" alt="location icon">
             <div class="flex flex-col items-start gap-[-2.667px] w-[107px]">
               <div class="text-[14.667px] font-normal not-italic leading-normal opacity-[0.3]">Deliver to</div>
@@ -31,22 +31,23 @@
           <div class="flex w-[674.67px] h-[58.67px] pt-[17.333px] pr-[304px] pb-[16.333px] pl-[26.667px] items-center rounded-[16px] bg-amazon-not-white">
             <div class="flex items-center justify-center gap-[13.333px]">
               <img src="/assets/search.svg" class="w-[18.667px] h-[18.667px]" alt="search icon">
-              <div class="w-[322px] text-[18.667px] font-normal not-italic leading-normal opacity-[0.3]">Search for products, brand and more</div>
+              <!-- <div class="w-[322px] text-[18.667px] font-normal not-italic leading-normal opacity-[0.3]">Search for products, brand and more</div> -->
+              <input type="text" placeholder="Search for products, brand and more" class="w-[600px] placeholder:text-amazon-not-black text-[18.667px] font-normal not-italic leading-normal opacity-[0.3] placeholder:font-normal bg-amazon-not-white outline-none">
             </div>
           </div>
           <!-- wishlist -->
-          <div class="flex h-[56.667px] w-[166.85px] px-[18.667px] py-[21.333px] justify-center items-center gap-[13.333px] rounded-[16px] bg-amazon-not-white">
+          <div class="flex h-[56.667px] w-[166.85px] px-[18.667px] py-[21.333px] justify-center items-center gap-[13.333px] rounded-[16px] bg-amazon-not-white cursor-pointer">
             <img src="/assets/favorite.svg" class="w-[24.86px] h-[21.333px]" alt="favorite icon">
             <div class="text-[18.667px] not-italic font-medium leading-normal opacity-[0.7]">WISHLIST</div>
           </div>
           <!-- cart -->
-          <div class="relative inline-flex h-[58.667px] w-[65.9px] py-[18.667px] px-[21.333px] flex-col justify-center items-center gap-[13.333px] rounded-[16px] bg-amazon-not-white">
+          <div class="relative cursor-pointer inline-flex h-[58.667px] w-[65.9px] py-[18.667px] px-[21.333px] flex-col justify-center items-center gap-[13.333px] rounded-[16px] bg-amazon-not-white">
             <span class="w-full h-full before:absolute before:top-0 before:right-0 before:-translate-x-[-7px] before:-translate-y-[7px] before:flex before:items-center before:justify-center before:w-[26.667px] before:h-[26.667px] before:rounded-full before:bg-[#F90] before:text-white before:text-[13.333px] before:not-italic before:font-bold before:leading-normal before:uppercase before:content-['2']">
               <img src="/assets/cart.svg" class="w-[23.236px] h-[21.333px]" alt="cart icon">
             </span>
           </div>
           <!-- profile -->
-          <div class="flex items-center justify-center gap-[10.667px]">
+          <div class="flex cursor-pointer items-center justify-center gap-[10.667px]">
             <img src="/assets/profile.svg" class="w-[61.333px] h-[61.333px]" alt="profile icon">
             <div class="text-[18.667px] not-italic font-medium leading-normal opacity-[0.7]">CAN</div>
             <img src="/assets/arrow-down-light.svg" class="w-[21.333px] h-[21.333px]" alt="arrow down icon">
@@ -55,18 +56,18 @@
       </div>
       <!-- second row -->
       <div class="flex items-center justify-between gap-[100px] w-[1541px]">
-        <img src="/assets/hamburger.svg" class="w-[36px] h-[24px]" alt="hamburger icon">
+        <img src="/assets/hamburger.svg" class="w-[36px] h-[24px] cursor-pointer" alt="hamburger icon">
         <div class="flex items-start justify-between w-fit gap-[45px] text-[18.667px] not-italic font-medium leading-normal">
-          <p>MEN</p>
-          <h4>WOMEN</h4>
-          <h4>KIDS</h4>
-          <h4>HOME & LIVING</h4>
-          <h4>ELECTRONICS</h4>
-          <h4>BEAUTY</h4>
-          <h4>SPORT & FITNESS</h4>
-          <h4>BOOKS</h4>
-          <h4>MUSIC & GAMES</h4>
-          <h4>GIFT CARDS</h4>
+          <a href="#">MEN</a>
+          <a href="#">WOMEN</a>
+          <a href="#">KIDS</a>
+          <a href="#">HOME & LIVING</a>
+          <a href="#">ELECTRONICS</a>
+          <a href="#">BEAUTY</a>
+          <a href="#">SPORT & FITNESS</a>
+          <a href="#">BOOKS</a>
+          <a href="#">MUSIC & GAMES</a>
+          <a href="#">GIFT CARDS</a>
         </div>
       </div>
     </nav>
@@ -86,15 +87,15 @@
             </button>
           </div>
           <div class="w-[221.333px] h-[21.333px] flex gap-[40px] justify-center items-center">
-            <img src="/assets/icons-arrow-left-light.svg" class="w-[10.667px] h-[21.333px]" alt="arrow icon left">
+            <img src="/assets/icons-arrow-left-light.svg" class="w-[10.667px] h-[21.333px] cursor-pointer" alt="arrow icon left">
             <div class="flex items-start gap-[13.333px]">
-              <img src="/assets/ellipse-1.svg" class="w-[13.333px] h-[13.333px]" alt="white ellipse">
-              <img src="/assets/ellipse-2.svg" class="w-[13.333px] h-[13.333px]" alt="yellow ellipse">
-              <img src="/assets/ellipse-1.svg" class="w-[13.333px] h-[13.333px]" alt="white ellipse">
-              <img src="/assets/ellipse-1.svg" class="w-[13.333px] h-[13.333px]" alt="white ellipse">
-              <img src="/assets/ellipse-1.svg" class="w-[13.333px] h-[13.333px]" alt="white ellipse">
+              <img src="/assets/ellipse-1.svg" class="w-[13.333px] h-[13.333px] cursor-pointer" alt="white ellipse">
+              <img src="/assets/ellipse-2.svg" class="w-[13.333px] h-[13.333px] cursor-pointer" alt="yellow ellipse">
+              <img src="/assets/ellipse-1.svg" class="w-[13.333px] h-[13.333px] cursor-pointer" alt="white ellipse">
+              <img src="/assets/ellipse-1.svg" class="w-[13.333px] h-[13.333px] cursor-pointer" alt="white ellipse">
+              <img src="/assets/ellipse-1.svg" class="w-[13.333px] h-[13.333px] cursor-pointer" alt="white ellipse">
             </div>
-            <img src="/assets/icons-arrow-right-light.svg" class="w-[10.667px] h-[21.333px]" alt="arrow icon right">
+            <img src="/assets/icons-arrow-right-light.svg" class="w-[10.667px] h-[21.333px] cursor-pointer" alt="arrow icon right">
           </div>
         </div>
         <div class="flex p-[32px] justify-center items-center rounded-[32px] bg-amazon-not-white">
@@ -330,61 +331,61 @@
         <div class="flex flex-col w-[241px] gap-[18px]">
           <p class="text-[21px] not-italic font-medium leading-normal uppercase opacity-50">get to know us</p>
           <div class="flex flex-col items-start gap-[14px]">
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">careers</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">blog</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">about amazon</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">ınvestor relations</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">amazon devices</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">amazon science</p>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">careers</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">blog</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">about amazon</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">ınvestor relations</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">amazon devices</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">amazon science</a>
           </div>
         </div>
         <div class="flex flex-col w-[322px] gap-[18px]">
           <p class="text-[21px] not-italic font-medium leading-normal uppercase opacity-50">make money with us</p>
           <div class="flex flex-col items-start gap-[14px]">
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">sell product on amazın</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">sell amazon business</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">sell apps on amazon</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">become an affiliate</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">adversite your products</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">self-publish with us</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">host an amazon hub</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">see more make money<br/>
-              wıth us</p>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">sell product on amazın</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">sell amazon business</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">sell apps on amazon</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">become an affiliate</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">adversite your products</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">self-publish with us</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">host an amazon hub</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">see more make money<br>
+              wıth us</a>
           </div>
         </div>
         <div class="flex flex-col w-[388px] gap-[18px]">
           <p class="text-[21px] not-italic font-medium leading-normal uppercase opacity-50">amazon payment products</p>
           <div class="flex flex-col items-start gap-[14px]">
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">amazon business card</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">shop with points</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">reload you balance</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">amazon currency converter</p>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">amazon business card</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">shop with points</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">reload you balance</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">amazon currency converter</a>
           </div>
         </div>
         <div class="flex flex-col w-[264px] gap-[18px]">
           <p class="text-[21px] not-italic font-medium leading-normal uppercase opacity-50">let us help you</p>
           <div class="flex flex-col items-start gap-[14px]">
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">your account</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">your orders</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">shıppng rates &<br/>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">your account</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">your orders</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">shıppng rates &<bra>
               policies</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">returns &<br/>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">returns &<bra>
               replacements</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">manage your <br/>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">manage your <bra>
               contect and devıces</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">amazon assistant</p>
-            <p class="text-[18px] font-medium leading-normal capitalize not-italic">Help</p>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">amazon assistant</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">Help</a>
           </div>
         </div>
       </div>
       <div class="flex flex-row items-center justify-between w-full h-[25px]">
         <div class="flex items-start justify-between w-[480px]">
-          <p class="text-[18px] not-italic font-medium leading-normal">Conditions of Use</p>
-          <p class="text-[18px] not-italic font-medium leading-normal">Privacy Notice</p>
-          <p class="text-[18px] not-italic font-medium leading-normal">Interest-Based Ads</p>
+          <p class="text-[18px] not-italic font-medium leading-normal cursor-pointer">Conditions of Use</p>
+          <p class="text-[18px] not-italic font-medium leading-normal cursor-pointer">Privacy Notice</p>
+          <p class="text-[18px] not-italic font-medium leading-normal cursor-pointer">Interest-Based Ads</p>
         </div>
         <div class="flex items-start justify-between w-[392px]">
-          <p class="text-[18px] not-italic font-medium leading-normal">@ 1996-2023, Amazon.com, Inc, or its affiliates</p>
+          <p class="text-[18px] not-italic font-medium leading-normal cursor-pointer">@ 1996-2023, Amazon.com, Inc, or its affiliates</p>
         </div>
       </div>
     </section>
