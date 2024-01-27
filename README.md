@@ -1,4 +1,4 @@
-# Amazony - A Fresh Redesign
+# Amazony - A Bold Redesign
 
 ## Overview
 
