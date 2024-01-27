@@ -21,4 +21,4 @@ The initial design for this project was sourced from the Figma community. Some e
 
 <br/>
 
-#### Thanks for peepin', happy shoppin'! ✨
+**Thanks for peepin', happy shoppin'! ✨**
