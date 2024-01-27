@@ -1,4 +1,4 @@
-# Amazon Redesign
+# Amazony - A Fresh Redesign
 
 ## Overview
 
