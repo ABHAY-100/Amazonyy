@@ -1,4 +1,4 @@
-# Amazony - A Bold Redesign
+# Amazonyy - A Bold Redesign
 
 ## Overview
 
