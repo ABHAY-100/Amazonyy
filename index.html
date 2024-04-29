@@ -7,8 +7,8 @@
     <title>Amazon.com. Spend less. Smile more.</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body class="box-border relative w-full bg-amazon-pure-white h-fit font-red-hat-display text-amazon-not-black">  
-    <!-- navbar -->
+  <body class="box-border relative mx-auto w-fit bg-amazon-pure-white h-fit font-red-hat-display text-amazon-not-black">  
+    <!-- the navbar -->
     <nav class="inline-flex flex-col h-[209px] w-full justify-center items-center px-[160px] py-[40px] gap-[40px] border-b-[1px] border-solid border-[#F4F4F4]">
       <!-- first row -->
       <div class="flex flex-row items-center justify-center gap-[90px]">
@@ -19,44 +19,45 @@
         <!-- other components -->
         <div class="flex justify-center items-center gap-[25px]">
           <!-- loc thing -->
-          <div class="h-[58.66667px] w-[212.33334px] px-[21.333px] py-[18.667px] flex justify-center items-center gap-[13.333px] rounded-[16px] bg-amazon-not-white cursor-pointer">
+          <button class="h-[58.66667px] w-[212.33334px] px-[21.333px] py-[18.667px] flex justify-center items-center gap-[13.333px] rounded-[16px] bg-amazon-not-white cursor-pointer">
             <img src="/assets/map-location.svg" class="w-[14.667px] h-[21.333px]" alt="location icon">
             <div class="flex flex-col items-start gap-[-2.667px] w-[107px]">
-              <div class="text-[14.667px] font-normal not-italic leading-normal opacity-[0.3]">Deliver to</div>
-              <div class="text-[16px] font-semibold not-italic leading-normal opacity-[0.7]">Anakara,Türkiye</div>
+              <p class="text-[14.667px] font-normal not-italic leading-normal opacity-[0.3]">Deliver to</p>
+              <p class="text-[16px] font-semibold not-italic leading-normal opacity-[0.7]">Anakara,Türkiye</p>
             </div>
             <img src="/assets/arrow-down-light.svg" class="w-[21.333px] h-[21.333px]" alt="arrow down icon">
-          </div>
+          </button>
           <!-- search bar -->
           <div class="flex w-[674.67px] h-[58.67px] pt-[17.333px] pr-[304px] pb-[16.333px] pl-[26.667px] items-center rounded-[16px] bg-amazon-not-white">
             <div class="flex items-center justify-center gap-[13.333px]">
               <img src="/assets/search.svg" class="w-[18.667px] h-[18.667px]" alt="search icon">
-              <!-- <div class="w-[322px] text-[18.667px] font-normal not-italic leading-normal opacity-[0.3]">Search for products, brand and more</div> -->
-              <input type="text" placeholder="Search for products, brand and more" class="w-[600px] placeholder:text-amazon-not-black text-[18.667px] font-normal not-italic leading-normal opacity-[0.3] placeholder:font-normal bg-amazon-not-white outline-none">
+              <input type="text" placeholder="Search for products, brand and more" class="w-[600px] placeholder:text-amazon-not-black text-[18.667px] font-normal not-italic leading-normal text-amazon-not-black placeholder:opacity-[0.3] placeholder:font-normal bg-amazon-not-white outline-none">
             </div>
           </div>
           <!-- wishlist -->
-          <div class="flex h-[56.667px] w-[166.85px] px-[18.667px] py-[21.333px] justify-center items-center gap-[13.333px] rounded-[16px] bg-amazon-not-white cursor-pointer">
+          <button class="flex h-[56.667px] w-[166.85px] px-[18.667px] py-[21.333px] justify-center items-center gap-[13.333px] rounded-[16px] bg-amazon-not-white">
             <img src="/assets/favorite.svg" class="w-[24.86px] h-[21.333px]" alt="favorite icon">
             <div class="text-[18.667px] not-italic font-medium leading-normal opacity-[0.7]">WISHLIST</div>
-          </div>
+          </button>
           <!-- cart -->
-          <div class="relative cursor-pointer inline-flex h-[58.667px] w-[65.9px] py-[18.667px] px-[21.333px] flex-col justify-center items-center gap-[13.333px] rounded-[16px] bg-amazon-not-white">
+          <button class="relative inline-flex h-[58.667px] w-[65.9px] py-[18.667px] px-[21.333px] flex-col justify-center items-center gap-[13.333px] rounded-[16px] bg-amazon-not-white">
             <span class="w-full h-full before:absolute before:top-0 before:right-0 before:-translate-x-[-7px] before:-translate-y-[7px] before:flex before:items-center before:justify-center before:w-[26.667px] before:h-[26.667px] before:rounded-full before:bg-[#F90] before:text-white before:text-[13.333px] before:not-italic before:font-bold before:leading-normal before:uppercase before:content-['2']">
               <img src="/assets/cart.svg" class="w-[23.236px] h-[21.333px]" alt="cart icon">
             </span>
-          </div>
+          </button>
           <!-- profile -->
-          <div class="flex cursor-pointer items-center justify-center gap-[10.667px]">
+          <button class="flex items-center justify-center gap-[10.667px]">
             <img src="/assets/profile.svg" class="w-[61.333px] h-[61.333px]" alt="profile icon">
             <div class="text-[18.667px] not-italic font-medium leading-normal opacity-[0.7]">CAN</div>
             <img src="/assets/arrow-down-light.svg" class="w-[21.333px] h-[21.333px]" alt="arrow down icon">
-          </div>
+          </button>
         </div>
       </div>
       <!-- second row -->
       <div class="flex items-center justify-between gap-[100px] w-[1541px]">
-        <img src="/assets/hamburger.svg" class="w-[36px] h-[24px] cursor-pointer" alt="hamburger icon">
+        <button>
+          <img src="/assets/hamburger.svg" class="w-[36px] h-[24px]" alt="hamburger icon">
+        </button>
         <div class="flex items-start justify-between w-fit gap-[45px] text-[18.667px] not-italic font-medium leading-normal">
           <a href="#">MEN</a>
           <a href="#">WOMEN</a>
@@ -71,21 +72,25 @@
         </div>
       </div>
     </nav>
-    <!-- middle section -->
-    <section class="flex flex-col items-center justify-center">
+  
+  
+    <!-- the middle section -->
+    <section class="flex flex-col items-center justify-center mx-auto">
       <!-- frame:1 -->
       <div class="inline-flex items-end gap-[104px] mt-[81px]">
         <div class="flex flex-col items-start gap-[105px]">
           <div class="flex flex-col items-start gap-[32px]">
             <div class="flex flex-col items-start gap-[21.333px]">
-              <div class="w-[784px] text-[53.333px] font-bold not-italic leading-normal tracking-[-1.333px] uppercase">Shop Latest technological products</div>
-              <div class="w-[746px] text-[26.667px] not-italic font-normal leading-[40px]">Unleash tomorrow's technology today: elevating your world with <span class="text-[#F90] font-semibold">innovative</span> solutions and unparalleled performance!</div>
+              <h2 class="w-[784px] text-[53.333px] font-bold not-italic leading-normal tracking-[-1.333px] uppercase">Shop Latest technological products</h2>
+              <p class="w-[746px] text-[26.667px] not-italic font-normal leading-[40px]">Unleash tomorrow's technology today: elevating your world with <span class="text-[#F90] font-semibold">innovative</span> solutions and unparalleled performance!</p>
             </div>
             <button class="flex w-[264px] px-[21.333px] py-[13.333px] justify-between items-center rounded-[133.333px] border-[1.333px] border-solid border-[#F2F2F2]">
               <p class="opacity-80 leading-[28px] font-medium not-italic text-[18.667px]">Explore all products</p>
               <img src="/assets/arrow-right-yellow-fill.svg" class="w-[40px] h-[40px]" alt="right arrow icon">
             </button>
           </div>
+
+          <!-- may req edits -->
           <div class="w-[221.333px] h-[21.333px] flex gap-[40px] justify-center items-center">
             <img src="/assets/icons-arrow-left-light.svg" class="w-[10.667px] h-[21.333px] cursor-pointer" alt="arrow icon left">
             <div class="flex items-start gap-[13.333px]">
@@ -98,7 +103,8 @@
             <img src="/assets/icons-arrow-right-light.svg" class="w-[10.667px] h-[21.333px] cursor-pointer" alt="arrow icon right">
           </div>
         </div>
-        <div class="flex p-[32px] justify-center items-center rounded-[32px] bg-amazon-not-white">
+        
+        <a href="#" class="flex p-[32px] justify-center items-center rounded-[32px] bg-amazon-not-white">
           <div class="w-[648px] h-[444px] flex flex-row  gap-[74.67px] justify-center items-center">
             <div class="inline-flex flex-col items-start pt-[23px] gap-[16px]">
               <div class="flex-col fex items-start gap-[8px]">
@@ -114,14 +120,14 @@
                     <img src="/assets/star.svg" class="w-[19.649px] h-[18.667px]" alt="star icon">
                     <img src="/assets/star.svg" class="w-[19.649px] h-[18.667px]" alt="star icon">
                   </div>
-                  <div class="text-[18.667px] not font-medium leading-[28px] opacity-50">516 reviews</div>
+                  <p class="text-[18.667px] not font-medium leading-[28px] opacity-50">516 reviews</p>
                 </div>
               </div>
               <div class="flex items-center gap-[10.667px] w-[148px]">
-                <h5 class="text-[32px] font-medium not-italic leading-[48px] opacity-80">$999</h5>
-                <h6 class="w-[60px] h-[32px]">
-                  <h6 class="text-[21.333px] not-italic font-medium leading-[32px] opacity-50 line-through">$1099</h6>
-                </h6>
+                <p class="text-[32px] font-medium not-italic leading-[48px] opacity-80">$999</p>
+                <p class="w-[60px] h-[32px]">
+                  <p class="text-[21.333px] not-italic font-medium leading-[32px] opacity-50 line-through">$1099</p>
+                </p>
               </div>
               <button class="flex justify-center items-center gap-[16px] max-w-[157px]">
                 <p class="text-[18.667px] not-italic font-medium leading-[28px] opacity-80 ">View more</p>
@@ -132,15 +138,16 @@
               <img src="/assets/iphone-15-pro-128gb.png" class="w-[330.667px] h-auto" alt="iphone 15 pro image">
             </div>
           </div>
-        </div>
+        </a>
       </div>
+      
       <!-- frame:2 -->
       <div class="inline-flex items-center justify-between w-[1600px] mt-[160px]">
         <div class="flex items-center justify-between w-[816px]">
-          <div class="text-[48px] w-[258px] not-italic font-semibold leading-normal tracking-[-1.333px] uppercase">Explore products</div>
-          <div class="text-[18.667px] w-[480px] font-normal not-italic leading-normal">Embark on a Boundless Exploration of Innovation with Our Diverse Range of Products, Elevating Your Journey to Unveil New Horizons and Endless Possibilities.</div>
+          <h3 class="text-[48px] w-[258px] not-italic font-semibold leading-normal tracking-[-1.333px] uppercase">Explore products</h3>
+          <p class="text-[18.667px] w-[480px] font-normal not-italic leading-normal">Embark on a Boundless Exploration of Innovation with Our Diverse Range of Products, Elevating Your Journey to Unveil New Horizons and Endless Possibilities.</p>
         </div>
-        <div class="flex items-center justify-between w-[272px]">
+        <a class="flex items-center justify-between w-[272px]">
           <div class="flex w-[88px] items-start content-start gap-[8px] flex-wrap">
               <img src="/assets/product-1.png" class="flex w-[40px] justify-center rounded-[8px] items-center gap-[8px] flex-wrap" alt="product">
               <img src="/assets/product-2.png" class="flex w-[40px] justify-center rounded-[8px] items-center gap-[8px] flex-wrap" alt="product">
@@ -149,7 +156,7 @@
           </div>
           <div class="flex flex-col items-start justify-between h-[87.7px]">
             <div class="flex flex-col items-start w-[152px] h-[46px]">
-              <p class="w-auto text-[18.667px] not-italic font-semibold leading-normal">Popular Products</p>
+              <h5 class="w-auto text-[18.667px] not-italic font-semibold leading-normal">Popular Products</h5>
               <p class="w-auto text-[16px] not-italic font-normal leading-normal opacity-50">+200 Items</p>
             </div>
             <button type="button" class="flex items-center justify-between w-[105px] h-[25px]">
@@ -157,31 +164,32 @@
               <img src="/assets/arrow-right-yellow-fill-2.svg" alt="arrow right icon">
             </button>
           </div>
-        </div>
+        </a>
       </div>
+      
       <!-- frame:3 -->
       <div class="flex w-[1600px] mt-[48px] h-[864px] flex-col justify-between items-center">
         <div class="flex w-[1600px] h-[565px] justify-between items-center">
           <div class="flex flex-col justify-between h-[565px]">
-            <div class="w-[784px] h-[266.667px] rounded-[26.6667px] bg-sports shadow-md-right md:shadow-lg-right sm:shadow-none flex justify-center items-center pb-[30px]">
+            <a href="#" class="w-[784px] h-[266.667px] rounded-[26.6667px] bg-sports shadow-md-right md:shadow-lg-right sm:shadow-none flex justify-center items-center pb-[30px]">
               <div class="flex flex-col justify-center items-center gap-[10px]">
                 <p class="text-[26px] not-italic font-medium leading-normal">Love the sport you are in</p>
                 <button type="button" class="flex w-[173px] h-[42px] justify-center items-center rounded-[133px] border-[1.333px] border-solid border-amazon-pure-white bg-amazon-pure-white"><p class="text-[18px] not-italic font-medium leading-[28px] opacity-80">View All</p></button>
               </div>
-            </div>
-            <div class="w-[784px] flex items-center justify-start h-[266.667px] rounded-[32.6667px] shadow-md-right md:shadow-lg-right sm:shadow-none bg-laptop relative">
+            </a>
+            <a href="#" class="w-[784px] flex items-center justify-start h-[266.667px] rounded-[32.6667px] shadow-md-right md:shadow-lg-right sm:shadow-none bg-laptop relative">
               <div class="flex flex-col items-start justify-between ml-[53.33px] h-[145px] w-[200px]">
-                <h4 class="text-[32px] not-italic font-medium leading-normal">Writing code?<br/>
-                  you are in</h4>
-                <p class="text-[21px] font-semibold leading-normal tracking-[-1.33px] opacity-70 not-italic cursor-pointer">shop now</p>
+                <p class="text-[32px] not-italic font-medium leading-normal">Writing code?<br/>
+                  you are in</p>
+                <button class="text-[21px] font-semibold leading-normal tracking-[-1.33px] opacity-70 not-italic">shop now</button>
               </div>
               <button class="absolute w-[48px] h-[48px] bg-amazon-pure-white flex justify-center items-center rounded-[16px] right-0 top-0 translate-y-[30.33px] translate-x-[-21.33px]">
                 <img src="/assets/arrow-top-right.svg" alt="arrow top right">
               </button>
-            </div>
+            </a>
           </div>
           <div class="flex flex-row w-[784px] h-[565px] items-start justify-between">
-            <div class="w-[376px] flex flex-col justify-between h-[565px] rounded-[32px] bg-chair-1 px-[25px] py-[35px] shadow-md-right md:shadow-lg-right sm:shadow-none">
+            <a href="#" class="w-[376px] flex flex-col justify-between h-[565px] rounded-[32px] bg-chair-1 px-[25px] py-[35px] shadow-md-right md:shadow-lg-right sm:shadow-none">
               <div class="flex relative justify-between w-full h-[48px] items-start">
                 <div class="flex w-[64px] h-[26px] justify-between items-start">
                   <div class="w-[26px] h-[26px] border-[#4A0AFF] flex justify-center items-center border-[1.333px] border-solid rounded-[50px]">
@@ -201,8 +209,8 @@
                 </div>
                 <div class="rounded-[21px] h-[60px] w-[68px] bg-[#F90] flex justify-center items-center font-semibold tracking-[-1.33px] leading-normal not-italic text-[21px] text-amazon-pure-white">$85</div>
               </div>
-            </div>
-            <div class="w-[376px] flex flex-col justify-between h-[565px] rounded-[32px] bg-cam-2 px-[25px] py-[35px] shadow-md-right md:shadow-lg-right sm:shadow-none">
+            </a>
+            <a href="#" class="w-[376px] flex flex-col justify-between h-[565px] rounded-[32px] bg-cam-2 px-[25px] py-[35px] shadow-md-right md:shadow-lg-right sm:shadow-none">
               <div class="flex relative justify-between w-full h-[48px] items-start">
                 <div class="flex w-[64px] h-[26px] justify-between items-start">
                   <div class="w-[26px] h-[26px] border-[#FB5E2E] flex justify-center items-center border-[1.333px] border-solid rounded-[50px]">
@@ -222,11 +230,11 @@
                 </div>
                 <div class="rounded-[21px] h-[60px] w-[68px] bg-[#F90] flex justify-center items-center font-semibold tracking-[-1.33px] leading-normal not-italic text-[21px] text-amazon-pure-white">$76</div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div class="flex w-[1600px] h-[266px] justify-between items-center">
-          <div class="bg-lamp w-[376px] flex justify-between flex-col items-end h-[266px] rounded-[26px] py-[21px] px-[21px] shadow-md-right md:shadow-lg-right sm:shadow-none">
+          <a href="#" class="bg-lamp w-[376px] flex justify-between flex-col items-end h-[266px] rounded-[26px] py-[21px] px-[21px] shadow-md-right md:shadow-lg-right sm:shadow-none">
             <div class="flex relative justify-between w-full h-[48px] items-start">
               <div class="flex w-[64px] h-[26px] justify-between items-start">
                 <div class="w-[26px] h-[26px] border-[#D79E7A] flex justify-center items-center border-[1.333px] border-solid rounded-[50px]">
@@ -238,22 +246,22 @@
                 <img src="/assets/arrow-top-right.svg" alt="arrow top right">
               </button>
             </div>
-            <div class="rounded-[21px] h-[60px] w-[68px] bg-[#F90] flex justify-center items-center font-semibold tracking-[-1.33px] leading-normal not-italic text-[21px] text-amazon-pure-white">$85</div>
-          </div>
+            <p class="rounded-[21px] h-[60px] w-[68px] bg-[#F90] flex justify-center items-center font-semibold tracking-[-1.33px] leading-normal not-italic text-[21px] text-amazon-pure-white">$85</p>
+          </a>
           <div class="w-[376px] h-[266.66px] flex flex-col justify-between rounded-[32px] bg-[#F8F8FA] p-[21px] shadow-md-right md:shadow-lg-right sm:shadow-none">
             <div class="w-[302px] gap-[8px] flex items-start content-start flex-wrap">
-              <div class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Clothing</div>
-              <div class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Pets</div>
-              <div class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Laptop</div>
-              <div class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Baby</div>
-              <div class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">School & Office</div>
-              <div class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Handmade</div>
-              <div class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Iphone</div>
-              <div class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Garden</div>
+              <a href="#" class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Clothing</a>
+              <a href="#" class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Pets</a>
+              <a href="#" class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Laptop</a>
+              <a href="#" class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Baby</a>
+              <a href="#" class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">School & Office</a>
+              <a href="#" class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Handmade</a>
+              <a href="#" class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Iphone</a>
+              <a href="#" class="flex items-center justify-center py-[10px] cursor-pointer px-[18px] bg-[#E5E5FE] rounded-[32px] text-[14.66px] not-italic font-medium leading-normal">Garden</a>
             </div>
-            <p class="opacity-70 text-[18px] not-italic font-semibold leading-normal tracking-[-1.3px] cursor-pointer">View All Categories</p>
+            <a href="#" class="opacity-70 text-[18px] not-italic font-semibold leading-normal tracking-[-1.3px] cursor-pointer">View All Categories</a>
           </div>
-          <div class="bg-[#D8E4FC] w-[784px] flex items-center justify-start h-[266.667px] rounded-[32.6667px] bg-chair-2 relative shadow-md-right md:shadow-lg-right sm:shadow-none">
+          <a href="#" class="bg-[#D8E4FC] w-[784px] flex items-center justify-start h-[266.667px] rounded-[32.6667px] bg-chair-2 relative shadow-md-right md:shadow-lg-right sm:shadow-none">
             <div class="flex flex-col items-start justify-between ml-[53.33px] h-[145px] w-[200px]">
               <h4 class="text-[32px] not-italic font-medium leading-normal">Find the best
                 furniture!</h4>
@@ -262,12 +270,13 @@
             <button class="absolute w-[48px] h-[48px] bg-amazon-pure-white flex justify-center items-center rounded-[16px] right-0 top-0 translate-y-[30.33px] translate-x-[-21.33px]">
               <img src="/assets/arrow-top-right.svg" alt="arrow top right">
             </button>
-          </div>
+          </a>
         </div>
       </div>
+      
       <!-- frame:4 -->
       <div class="inline-flex items-center justify-between w-[1600px] mt-[160px]">
-        <div class="text-[48px] h-full font-semibold not-italic leading-normal tracking-[-1.333px] uppercase w-[357px]">Shop <br/>by categories</div>
+        <h3 class="text-[48px] h-full font-semibold not-italic leading-normal tracking-[-1.333px] uppercase w-[357px]">Shop <br/>by categories</h3>
         <div class="flex justify-center items-end h-[128px] w-[157px]">
           <button type="button" class="flex items-center justify-between w-full">
             <p class="text-[18.667px] not-italic font-medium leading-[28px] opacity-80">View more</p>
@@ -275,36 +284,38 @@
           </button>
         </div>
       </div>
+      
       <!-- frame:5 -->
       <div class="inline-flex justify-between mt-[48px] w-[1600px] items-center">
-        <div class="flex flex-col justify-between w-[376px] h-[323px]">
+        <a href="#" class="flex flex-col justify-between w-[376px] h-[323px]">
           <div class="flex w-full h-[266.667px] justify-center items-center rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white bg-amazon-not-white">
             <img src="/assets/macbook.png" alt="mackbook">
           </div>
           <p class="w-full text-center text-[24px] not-italic font-semibold leading-[36px] opacity-50">MacBook</p>
-        </div>
-        <div class="flex flex-col justify-between w-[376px] h-[323px]">
+        </a>
+        <a href="#" class="flex flex-col justify-between w-[376px] h-[323px]">
           <div class="flex w-full h-[266.667px] justify-center items-center rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white bg-amazon-not-white">
             <img src="/assets/playstation.png" alt="ps">
           </div>
           <p class="w-full text-center text-[24px] not-italic font-semibold leading-[36px] opacity-50">Playstation</p>
-        </div>
-        <div class="flex flex-col justify-between w-[376px] h-[323px]">
+        </a>
+        <a href="#" class="flex flex-col justify-between w-[376px] h-[323px]">
           <div class="flex w-full h-[266.667px] justify-center items-center rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white bg-amazon-not-white">
             <img src="/assets/tv.png" alt="tv">
           </div>
           <p class="w-full text-center text-[24px] not-italic font-semibold leading-[36px] opacity-50">Television</p>
-        </div>
-        <div class="flex flex-col justify-between w-[376px] h-[323px]">
+        </a>
+        <a href="#" class="flex flex-col justify-between w-[376px] h-[323px]">
           <div class="flex w-full h-[266.667px] justify-center items-center rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white bg-amazon-not-white">
             <img src="/assets/camera.png" alt="camera">
           </div>
           <p class="w-full text-center text-[24px] not-italic font-semibold leading-[36px] opacity-50">Camera</p>
-        </div>
+        </a>
       </div>
+      
       <!-- frame:6 -->
       <div class="inline-flex items-center justify-between w-[1600px] mt-[160px]">
-        <div class="text-[48px] h-full font-semibold not-italic leading-normal tracking-[-1.333px] uppercase w-[178px]">Last <br/>Viewed</div>
+        <h3 class="text-[48px] h-full font-semibold not-italic leading-normal tracking-[-1.333px] uppercase w-[178px]">Last <br/>Viewed</h3>
         <div class="flex justify-center items-end h-[128px] w-[77.3px]">
           <div class="flex items-center justify-between w-full">
             <button type="button" class="w-fit h-fit"><img src="/assets/Icons_Arrow-1.svg" class="w-[12px] h-[24px]" alt="arrow left"></button>
@@ -312,9 +323,10 @@
           </div>
         </div>
       </div>
+      
       <!-- frame:7 -->
       <div class="inline-flex items-center justify-between w-[1600px] mt-[48px]">
-        <div class="flex h-[400px] py-[41px] px-[21px] justify-between items-center flex-col w-[294.63px] rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white">
+        <a href="#" class="flex h-[400px] py-[41px] px-[21px] justify-between items-center flex-col w-[294.63px] rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white">
           <img src="/assets/shoes-1.png" alt="shoes">
           <div class="flex w-[252px] flex-col items-start justify-between h-[150px]">
             <div class="flex flex-col flex-start h-[60px]">
@@ -333,8 +345,8 @@
             </div>
             <p class="text-[32px] not-italic font-semibold leading-[48px]">$999</p>
           </div>
-        </div>
-        <div class="flex h-[400px] py-[41px] px-[21px] justify-between items-center flex-col w-[294.63px] rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white">
+        </a>
+        <a href="#" class="flex h-[400px] py-[41px] px-[21px] justify-between items-center flex-col w-[294.63px] rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white">
           <img src="/assets/shoes-2.png" alt="shoes">
           <div class="flex w-[252px] flex-col items-start justify-between h-[150px]">
             <div class="flex flex-col flex-start h-[60px]">
@@ -353,10 +365,10 @@
             </div>
             <p class="text-[32px] not-italic font-semibold leading-[48px]">$549</p>
           </div>
-        </div>
-        <div class="flex relative h-[400px] py-[41px] px-[21px] justify-between items-center flex-col w-[294.63px] rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white">
+        </a>
+        <a href="#" class="flex relative h-[400px] py-[41px] px-[21px] justify-between items-center flex-col w-[294.63px] rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white">
           <img src="/assets/shoes-3.png" alt="shoes">
-          <button class="flex absolute items-center justify-center w-[79px] h-[34px] text-[13px] not-italic font-semibold leading-normal bg-[#F90] rounded-[30px] text-amazon-pure-white top-0 left-0 translate-x-[15px] translate-y-[15px]">best seller</button>
+          <span class="flex absolute items-center justify-center w-[79px] h-[34px] text-[13px] not-italic font-semibold leading-normal bg-[#F90] rounded-[30px] text-amazon-pure-white top-0 left-0 translate-x-[15px] translate-y-[15px]">best seller</span>
           <div class="flex w-[252px] flex-col items-start justify-between h-[150px]">
             <div class="flex flex-col flex-start h-[60px]">
               <p class="text-[18.667px] not-italic font-semibold leading-[28px] opacity-50">Nike</p>
@@ -374,8 +386,8 @@
             </div>
             <p class="text-[32px] not-italic font-semibold leading-[48px]">$1299</p>
           </div>
-        </div>
-        <div class="flex h-[400px] py-[41px] px-[21px] justify-between items-center flex-col w-[294.63px] rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white">
+        </a>
+        <a href="#" class="flex h-[400px] py-[41px] px-[21px] justify-between items-center flex-col w-[294.63px] rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white">
           <img src="/assets/shoes-4.png" alt="shoes">
           <div class="flex w-[252px] flex-col items-start justify-between h-[150px]">
             <div class="flex flex-col flex-start h-[60px]">
@@ -394,8 +406,8 @@
             </div>
             <p class="text-[32px] not-italic font-semibold leading-[48px]">$899</p>
           </div>
-        </div>
-        <div class="flex h-[400px] py-[41px] px-[21px] justify-between items-center flex-col w-[294.63px] rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white">
+        </a>
+        <a href="#" class="flex h-[400px] py-[41px] px-[21px] justify-between items-center flex-col w-[294.63px] rounded-[26.667px] border-[1.333px] border-solid border-amazon-not-white">
           <img src="/assets/shoes-5.png" alt="shoes">
           <div class="flex w-[252px] flex-col items-start justify-between h-[150px]">
             <div class="flex flex-col flex-start h-[60px]">
@@ -414,84 +426,87 @@
             </div>
             <p class="text-[32px] not-italic font-semibold leading-[48px]">$799</p>
           </div>
-        </div>
+        </a>
       </div>
+      
       <!-- frame:8 -->
       <div class="w-[1600px] mt-[160px] px-[70px] bg-amazon-not-white rounded-[26.667px] inline-flex justify-between items-center h-[333px]">
         <div class="flex w-[579px] flex-col items-start gap-[19px]">
-          <h3 class="text-[48px] not-italic font-semibold leading-normal tracking-[-1.333px] uppercase">subscrıbe <br/>to the news</h3>
-          <p class="text-[26.667px] not-italic font-normal leading-[48px] opacity-80">Be aware of all discounts and bardains! <br/>Don’t miss your menefit!</p>
+          <h3 class="text-[48px] not-italic font-semibold leading-normal tracking-[-1.333px] uppercase">subscribe <br/>to the news</h3>
+          <p class="text-[26.667px] not-italic font-normal leading-[48px] opacity-80">Be aware of all discounts and bargains! <br/>Don’t miss your benefit!</p>
         </div>
         
         <div class="relative">
           <div class="h-[103px] flex justify-center items-center mr-[25.81px] absolute right-0">
-            <button class="flex items-center justify-center w-[195px] h-[73.667px] rounded-[74.667px] bg-[#F90] shadow-md text-amazon-pure-white text-[24px] not-italic font-semibold leading-[26.667px]">Subscribe</button>
+            <button type="submit" class="flex items-center justify-center w-[195px] h-[73.667px] rounded-[74.667px] bg-[#F90] shadow-md text-amazon-pure-white text-[24px] not-italic font-semibold leading-[26.667px]">Subscribe</button>
           </div>
-          <input type="email" placeholder="Enter your email" class="outline-none rounded-[80px] border-[1.333px] border-solid border-[#EFF0F6] bg-amazon-pure-white w-[801px] h-[103px] shadow-[-0px_10.667px_21.333px_0px_rgba(13,_10,_44,_0.05)] text-amazon-not-black font-red-hat-display font-medium text-[24px] not-italic leading-[36px] placeholder:opacity-20 pl-[38px] pr-[200px]">
+          <input type="email" placeholder="Enter your email" class="outline-none rounded-[80px] border-[1.333px] border-solid border-[#EFF0F6] bg-amazon-pure-white w-[801px] h-[103px] shadow-[-0px_10.667px_21.333px_0px_rgba(13,_10,_44,_0.05)] text-amazon-not-black font-red-hat-display font-medium text-[24px] not-italic leading-[36px] placeholder:opacity-40 pl-[38px] pr-[250px]">
         </div>
       </div>
     </section>
-    <!-- bottom nav -->
-    <section class="flex flex-col w-[1600px] h-[612px] justify-center gap-[111px] items-center mx-auto mt-[160px]">
+
+    
+    <!-- the bottom nav -->
+    <section class="flex flex-col w-full h-[612px] justify-center gap-[111px] px-[160px] items-center mx-auto mt-[160px]">
       <div class="flex flex-row justify-between items-start h-[400px] w-full">
         <div class="flex flex-col w-[241px] gap-[18px]">
-          <p class="text-[21px] not-italic font-medium leading-normal uppercase opacity-50">get to know us</p>
+          <h4 class="text-[21px] not-italic font-medium leading-normal uppercase opacity-50">get to know us</h4>
           <div class="flex flex-col items-start gap-[14px]">
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">careers</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">blog</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">about amazon</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">ınvestor relations</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">amazon devices</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">amazon science</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">careers</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">blog</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">about amazon</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">Investor relations</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">amazon devices</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">amazon science</a>
           </div>
         </div>
         <div class="flex flex-col w-[322px] gap-[18px]">
-          <p class="text-[21px] not-italic font-medium leading-normal uppercase opacity-50">make money with us</p>
+          <h4 class="text-[21px] not-italic font-medium leading-normal uppercase opacity-50">make money with us</h4>
           <div class="flex flex-col items-start gap-[14px]">
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">sell product on amazın</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">sell amazon business</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">sell apps on amazon</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">become an affiliate</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">adversite your products</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">self-publish with us</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">host an amazon hub</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">see more make money<br>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">sell product on amazon</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">sell amazon business</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">sell apps on amazon</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">become an affiliate</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">adversite your products</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">self-publish with us</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">host an amazon hub</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">see more make money<br>
               wıth us</a>
           </div>
         </div>
         <div class="flex flex-col w-[388px] gap-[18px]">
-          <p class="text-[21px] not-italic font-medium leading-normal uppercase opacity-50">amazon payment products</p>
+          <h4 class="text-[21px] not-italic font-medium leading-normal uppercase opacity-50">amazon payment products</h4>
           <div class="flex flex-col items-start gap-[14px]">
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">amazon business card</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">shop with points</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">reload you balance</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">amazon currency converter</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">amazon business card</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">shop with points</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">reload you balance</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">amazon currency converter</a>
           </div>
         </div>
         <div class="flex flex-col w-[264px] gap-[18px]">
-          <p class="text-[21px] not-italic font-medium leading-normal uppercase opacity-50">let us help you</p>
+          <h4 class="text-[21px] not-italic font-medium leading-normal uppercase opacity-50">let us help you</h4>
           <div class="flex flex-col items-start gap-[14px]">
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">your account</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">your orders</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">shıppng rates &<bra>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">your account</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">your orders</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">shopping rates &<br>
               policies</p>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">returns &<bra>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">returns &<br>
               replacements</p>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">manage your <bra>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">manage your <br>
               contect and devıces</p>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">amazon assistant</a>
-            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic">Help</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">amazon assistant</a>
+            <a href="#" class="text-[18px] font-medium leading-normal capitalize not-italic custom-hover">Help</a>
           </div>
         </div>
       </div>
       <div class="flex flex-row items-center justify-between w-full h-[25px]">
         <div class="flex items-start justify-between w-[480px]">
-          <p class="text-[18px] not-italic font-medium leading-normal cursor-pointer">Conditions of Use</p>
-          <p class="text-[18px] not-italic font-medium leading-normal cursor-pointer">Privacy Notice</p>
-          <p class="text-[18px] not-italic font-medium leading-normal cursor-pointer">Interest-Based Ads</p>
+          <a href="#" class="text-[18px] not-italic font-medium leading-normal custom-hover">Conditions of Use</a>
+          <a href="#" class="text-[18px] not-italic font-medium leading-normal custom-hover">Privacy Notice</a>
+          <a href="#" class="text-[18px] not-italic font-medium leading-normal custom-hover">Interest-Based Ads</a>
         </div>
         <div class="flex items-start justify-between w-[392px]">
-          <p class="text-[18px] not-italic font-medium leading-normal cursor-pointer">@ 1996-2023, Amazon.com, Inc, or its affiliates</p>
+          <p class="text-[18px] not-italic font-medium leading-normal">@ 1996-2023, Amazon.com, Inc, or its affiliates</p>
         </div>
       </div>
     </section>
